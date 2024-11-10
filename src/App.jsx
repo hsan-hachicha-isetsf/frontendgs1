@@ -12,6 +12,8 @@ import Insertscategorie from "./components/scategories/Insertscategorie"
 import Editscategorie from "./components/scategories/Editscategorie"
 import Viewscategorie from "./components/scategories/Viewscategorie"
 import Menu from "./components/Menu"
+import "./style.css"
+import Listarticlescard from "./components/articles/Listarticlescard"
 function App() {
    return (
     <>
@@ -25,6 +27,7 @@ function App() {
         <Route path="/articles/add" element={<Insertarticle/>}/>
         <Route path="/articles/edit/:id" element={<Editarticle/>}/>
         <Route path="/articles/view/:id" element={<Viewarticle/>}/>
+        <Route path="/articlescard" element={<Listarticlescard/>}/>
 
         <Route path="/categories" element={<Listcategories/>}/>
         <Route path="/categories/add" element={<Insertcategorie/>}/>

@@ -20,6 +20,8 @@ function Menu() {
             <Nav.Link as={Link} to = "categories">Catégories</Nav.Link>
             <Nav.Link as={Link} to = "scategories">Sous Catégories</Nav.Link>
             <Nav.Link as={Link} to = "articles">Articles</Nav.Link>
+            <Nav.Link as={Link} to = "articlescard">Articles client</Nav.Link>
+            
             
             
           </Nav>
